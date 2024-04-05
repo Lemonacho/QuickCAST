@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUICKCAST HOST | Login</title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../favicon/logofavicon-512x512.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<div class="back">
+    <a href="../html/index.html" id="back">BACK</a>
+</div>
+    <div class="ForgotPasswordCode">
+        <input type="text" id="ForgotPasswordCodeInput" placeholder="Enter Code">
+        <button id="confirmForgotCode">Подтвердить</button>
+    </div>
+    <div class="newpass">
+        <input type="text" id="newpass" placeholder="New Password">
+        <input type="text" id="repeatnewpass" placeholder="Repeat New Password">
+        <button id="confirmpass">Подтвердить</button>
+        <button id="cancelpass">Отмена</button>
+    </div>
+    <div class="login">
+        <div class="loginform">
+            <p id="logintxt">LOGIN</p><hr>
+            <div class="username">
+                <p  id="username1">Username</p>
+                <input type="text" id="username" placeholder="Username">
+            </div>
+            <div class="password">
+                <p id="password1">Password</p>
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            <div class="forgotpass">
+                <button id="Fpass">Forgot Password?</button>
+            </div>
+            <div class="signin"><button id="signinbtn">LOG IN</button></div>
+        </div>
+        <a href="../html/register.html" id="signup">You don't have account?</a>
+    </div>
+    <div id="error-message" class="error-message"></div>
+    <div id="successfully-message" class="successfully-message"></div>
+    <script src="/JavaScript/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUICKCAST HOST</title>
+    <link rel="stylesheet" type="text/css" href="../css/kab.css">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../favicon/logofavicon-512x512.png">
+    <link rel="manifest" href="../favicon/site.webmanifest">
+    <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body hidden>
+    <!-- HEADER -->
+    <div class="header">
+        <div>
+            <img src="../img/logoquickcast.png" alt="#" class="imgheaddiv">
+        </div>
+        <div class="textheaddiv" >
+            <button id="aboutus">ABOUT US</button>
+            <button id="contact">CONTACTS</button>
+            <a href="#" id="partner">FOR PARTNER</a>
+            <a href="../html/index.html" id="home"><img src="../favicon/homepage.png" id="home" alt="#"></a>
+        </div>
+    </div>
+    <div class="newemail">
+        <input type="text" id="newemail" placeholder="New Email">
+        <button id="confirmEmail">Подтвердить</button>
+    </div>
+    <div class="newpass">
+        <input type="text" id="newpass" placeholder="New Password">
+        <input type="text" id="repeatnewpass" placeholder="Repeat New Password">
+        <button id="confirmpass">Подтвердить</button>
+        <button id="cancelpass">Отмена</button>
+    </div>
+    <div class="modal-content" id="changeEmailModal">
+        <input type="text" id="changeEmailCode" placeholder="Enter Code">
+        <button id="confirmChangeEmail">Подтвердить</button>
+        <button id="cancelChangeEmail">Отмена</button>
+    </div>
+<div id="overlay" style="display:none;"></div>
+<div id="infous">
+    <p id="textinfous">🕯️. JS - DANIL, CSS - ALIBI .🕯️</p>
+    <p id="textinfous">🕯️. FOR SOROKOV IGOR' .🕯️</p>
+    <p id="textinfous">🕯️. LANG - .py .db .js .css .html .🕯️</p>
+    <div class="fire">
+        <div class="red flame"></div>
+        <div class="orange flame"></div>
+        <div class="yellow flame"></div>
+        <div class="white flame"></div>
+        <div class="blue circle"></div>
+        <div class="black circle"></div>
+    </div>
+    <div class="fire1">
+        <div class="red flame"></div>
+        <div class="orange flame"></div>
+        <div class="yellow flame"></div>
+        <div class="white flame"></div>
+        <div class="blue circle"></div>
+        <div class="black circle"></div>
+    </div>
+    <div class="fire2">
+        <div class="red flame"></div>
+        <div class="orange flame"></div>
+        <div class="yellow flame"></div>
+        <div class="white flame"></div>
+        <div class="blue circle"></div>
+        <div class="black circle"></div>
+    </div>
+    <div class="fire3">
+        <div class="red flame"></div>
+        <div class="orange flame"></div>
+        <div class="yellow flame"></div>
+        <div class="white flame"></div>
+        <div class="blue circle"></div>
+        <div class="black circle"></div>
+    </div>
+    <div class="fire4">
+        <div class="red flame"></div>
+        <div class="orange flame"></div>
+        <div class="yellow flame"></div>
+        <div class="white flame"></div>
+        <div class="blue circle"></div>
+        <div class="black circle"></div>
+    </div>
+    <div class="fire5">
+        <div class="red flame"></div>
+        <div class="orange flame"></div>
+        <div class="yellow flame"></div>
+        <div class="white flame"></div>
+        <div class="blue circle"></div>
+        <div class="black circle"></div>
+    </div>
+    <button id="closewindow">Закрыть окно (ESC)</button>
+</div>
+<div id="overlay1" style="display: none"></div>
+<nav id="contactinfo">
+    <p id="denchik">Contacts Danil</p>
+    <ul id="social">
+    <li id="linksoc"><a id="heightsize" href="https://t.me/dfgeak" target="_blank"><img id="logo1" class="tlg" src="../favicon/telegram.png"></a></li>
+    <li id="linksoc"><a id="heightsize" href="https://vk.com/zaxece09" target="_blank"><img id="logo1" class="vk" src="../favicon/vk.png"></a></li>
+    <li id="linksoc"><a id="heightsize" href="https://instagram.com/dfgeak" target="_blank"><img id="logo1" class="inst" src="../favicon/inst.png"></a></li>
+    <li id="linksoc"><a id="heightsize" href="https://github.com/Lemonacho" target="_blank"><img id="logo1" class="git" src="../favicon/github.png"></a></li>
+</ul>
+    <p id="alibi">Contacts Alibi</p>
+    <ul id="sociallinks">
+        <li id="linksoc1"><a id="heightsize" href="https://t.me/uikuii" target="_blank"><img id="logo1" class="tlg" src="../favicon/telegram.png"></a></li>
+        <li id="linksoc1"><a id="heightsize" href="https://vk.com/cxxvv" target="_blank"><img id="logo1" class="vk" src="../favicon/vk.png"></a></li>
+        <li id="linksoc1"><a id="heightsize" href="https://instagram.com/kiotomurau" target="_blank"><img id="logo1" class="inst" src="../favicon/inst.png"></a></li>
+        <li id="linksoc1"><a id="heightsize" href="https://github.com/kiotomurau" target="_blank"><img id="logo1" class="git" src="../favicon/github.png"></a></li>
+    </ul>
+<button id="closewindow1">Закрыть окно (ESC)</button>
+</nav>
+<div class="youracc">
+    <p id="hello"></p>
+    <p id="Email"></p>
+    <p id="Buys"></p>
+    <p id="balance"></p>
+    <div class="loginout">
+        <button id="loginout">LOGIN OUT</button>
+    </div>
+    <div class="changepass">
+        <button id="changepass">CHANGE PASSWORD</button>
+    </div>
+    <div class="changeemail">
+        <button id="changeemail">CHANGE EMAIL</button>
+    </div>
+    <div class="wallpaper">
+        <button id="changewallpaperbutton">Change Background</button>
+    </div>
+    <div id="wallpaperPreviews">
+        <img class="previewImage" src="../img/1671479192_kalix-club-p-oboi-na-telefon-neiroset-krasivo-19.jpg" alt="Иллюстрация 1">
+        <img class="previewImage" src="../img/londonbackground.png" alt="Иллюстрация 2">
+        <img class="previewImage" src="../img/newyorkbackground.png" alt="Иллюстрация 3">
+        <img class="previewImage" src="../img/tokyocity.png" alt="Иллюстрация 4">
+        <img class="previewImage" src="../img/backgroundlogin.png" alt="Иллюстрация 5">
+        <button id="closePreviewsButton" class="close-previews">Свернуть обои</button>
+    </div>
+    <div id="previewModal" class="modal12">
+        <div class="modal-content12">
+            <img id="previewImage" src="" alt="Предварительный просмотр" class="full-image">
+            <button id="confirmButton">Подтвердить</button>
+            <button onclick="closeModal()" id="closeit">X</button>
+        </div>
+    </div>
+    <div id="error-message" class="error-message"></div>
+    <div id="successfully-message" class="successfully-message"></div>
+</body>
+<script src="/JavaScript/kab.js"></script>
+</html>
